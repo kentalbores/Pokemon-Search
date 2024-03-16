@@ -1,0 +1,47 @@
+#topDiv{
+  text-align: center;
+  margin-top: 80px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+body{
+  background-color: aquamarine;
+  background-image: url("./assets/bg2.jpg");
+  background-size:cover;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: #008DDA;
+  text-shadow: #ff0a0a62 5px 5px;
+}
+button{
+  margin: 5px;
+  color: #ACE2E1;
+  background-color: #008DDA;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border-style: groove;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: aqua;
+  transition: .5s;
+}
+input{
+  height:20px;
+  padding: 5px;
+  background-color: #ACE2E1;
+  border-style:groove;
+  border-radius: 5px;
+  color: #000000;
+  margin-top: 0;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
